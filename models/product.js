@@ -17,6 +17,7 @@ const getProductsFromFile = (cb) => {
   });
 };
 
+// This is the new product
 module.exports = class Product {
   constructor(t) {
     this.title = t;
